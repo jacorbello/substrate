@@ -4,11 +4,12 @@ go 1.26.6
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/jackc/pgx/v5 v5.10.0
+	github.com/jackc/pgx/v5 v5.11.0
 	github.com/modelcontextprotocol/go-sdk v1.7.0
 	github.com/pgvector/pgvector-go v0.4.1
 	github.com/pressly/goose/v3 v3.28.0
 	github.com/spf13/cobra v1.10.2
+	github.com/spf13/pflag v1.0.9
 	github.com/testcontainers/testcontainers-go/modules/postgres v0.44.0
 	github.com/tiktoken-go/tokenizer v0.8.1
 	go.opentelemetry.io/otel v1.46.0
@@ -76,7 +77,6 @@ require (
 	github.com/sethvargo/go-retry v0.4.0 // indirect
 	github.com/shirou/gopsutil/v4 v4.26.6 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
-	github.com/spf13/pflag v1.0.9 // indirect
 	github.com/stretchr/testify v1.12.1 // indirect
 	github.com/testcontainers/testcontainers-go v0.44.0 // indirect
 	github.com/tklauser/go-sysconf v0.4.0 // indirect
